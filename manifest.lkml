@@ -16,3 +16,8 @@ visualization: {
   label: "Bar Gauge"
   file: "bargauge.js"
 }
+visualization: {
+  id: "framer-viz-noah-dev"
+  label: "Framer"
+  file: "framer.js"
+}
