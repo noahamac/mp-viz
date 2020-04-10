@@ -1,5 +1,6 @@
 project_name: "mp-viz"
 
+# Marketplace Viz Dev Versions
 visualization: {
   id: "multiple-value-dev"
   label: "Multiple Value Dev"
@@ -16,6 +17,15 @@ visualization: {
   label: "Bar Gauge"
   file: "bargauge.js"
 }
+visualization: {
+  id: "packed-bubble-marketplace-dev"
+  label: "Packed Bubble Dev"
+  file: "packed_bubble.js"
+}
+
+
+
+# Other Viz
 visualization: {
   id: "framer-viz-noah-dev"
   label: "Framer"
