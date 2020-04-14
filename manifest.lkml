@@ -31,3 +31,8 @@ visualization: {
   label: "Framer"
   file: "framer.js"
 }
+visualization: {
+  id: "leaderboard-marketplace-dev"
+  label: "Leaderboard Dev"
+  url: "https://localhost:4443/leaderboard.js"
+}
