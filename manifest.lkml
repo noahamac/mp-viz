@@ -36,3 +36,9 @@ visualization: {
   label: "Leaderboard Dev"
   url: "https://localhost:4443/leaderboard.js"
 }
+visualization: {
+  id: "elevenup-viz"
+  label: "ElevenUp Dev"
+  # file: "multiple_value.js"
+  url: "https://localhost:4443/elevenup.js"
+}
