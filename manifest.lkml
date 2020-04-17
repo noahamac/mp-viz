@@ -9,18 +9,23 @@ visualization: {
 }
 visualization: {
   id: "radialgauge-next-marketplace-dev"
-  label: "Radial Gauge"
+  label: "Radial Gauge Dev"
   file: "radialgauge.js"
 }
 visualization: {
   id: "bargauge-next-marketplace-dev"
-  label: "Bar Gauge"
+  label: "Bar Gauge Dev"
   file: "bargauge.js"
 }
 visualization: {
   id: "packed-bubble-marketplace-dev"
   label: "Packed Bubble Dev"
   file: "packed_bubble.js"
+}
+visualization: {
+  id: "aster-plot-marketplace-dev"
+  label: "Aster Plot Dev"
+  file: "aster_plot.js"
 }
 
 
