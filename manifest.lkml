@@ -7,6 +7,7 @@ visualization: {
   # file: "multiple_value.js"
   url: "https://localhost:4443/multiple_value.js"
 }
+
 visualization: {
   id: "radialgauge-next-marketplace-dev"
   label: "Radial Gauge Dev"
