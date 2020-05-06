@@ -55,6 +55,7 @@ visualization: {
   id: "framer-viz-noah-dev"
   label: "Framer"
   file: "framer.js"
+  dependencies: ["https://localhost:4443/style.css"]
 }
 visualization: {
   id: "leaderboard-marketplace-dev"
