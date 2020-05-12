@@ -45,8 +45,8 @@ visualization: {
 visualization: {
   id: "calendar-heatmap-marketplace-dev"
   label: "Calendar Heatmap Dev"
-  # file: "sankey.js"
-  url: "https://localhost:4443/calendar_chart.js"
+  file: "calendar_chart.js"
+  # url: "https://localhost:4443/calendar_chart.js"
 }
 
 
