@@ -63,6 +63,11 @@ visualization: {
   url: "https://localhost:4443/leaderboard.js"
 }
 visualization: {
+  id: "viz-inspector-marketplace-dev"
+  label: "Viz Inspector"
+  file: "viz-inspector.js"
+}
+visualization: {
   id: "elevenup-viz"
   label: "ElevenUp Dev"
   # file: "multiple_value.js"
