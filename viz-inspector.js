@@ -158,7 +158,7 @@ looker.plugins.visualizations.add({
     $('.select_list').on('change', function () {
       obj_name = document.querySelector('.select_list').value
       console.log(eval(obj_name))
-      tree.loadData(eval(obj_name));
+      tree.loadData(JSON.parse(JSON.stringify(eval(obj_name)).replace(/undefined/g, '""')));
     });
     done()
   }
