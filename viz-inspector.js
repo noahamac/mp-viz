@@ -144,7 +144,7 @@ looker.plugins.visualizations.add({
   updateAsync: function(data, element, config, queryResponse, details, done) {
     this.clearErrors();
     var obj_name = document.querySelector('.select_list').value
-    tree.loadData(eval(obj_name));
+    tree.loadData(JSON.parse(eval(obj_name)));
     $('.collapse_btn').click(function () {
       tree.collapse()
     });
@@ -157,8 +157,7 @@ looker.plugins.visualizations.add({
     });
     $('.select_list').on('change', function () {
       obj_name = document.querySelector('.select_list').value
-      console.log(eval(obj_name))
-      tree.loadData(eval(obj_name));
+      tree.loadData(JSON.parse(eval(obj_name)));
     });
     done()
   }
