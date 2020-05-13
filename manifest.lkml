@@ -66,6 +66,7 @@ visualization: {
   id: "viz-inspector-marketplace-dev"
   label: "Viz Inspector"
   file: "viz-inspector.js"
+  dependencies: ["https://code.jquery.com/jquery-3.4.1.min.js", "https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
 }
 visualization: {
   id: "elevenup-viz"
