@@ -157,8 +157,9 @@ looker.plugins.visualizations.add({
     });
     $('.select_list').on('change', function () {
       obj_name = document.querySelector('.select_list').value
-      console.log(eval(obj_name))
-      tree.loadData(JSON.parse(JSON.stringify(eval(obj_name)).replace(/undefined/g, '""')));
+      obj_name == 'config' ?
+      tree.loadData(JSON.parse(JSON.stringify(eval(obj_name)).replace(/undefined/g, '""')))
+      : tree.loadData(eval(obj_name));
     });
     done()
   }
