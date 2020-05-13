@@ -144,6 +144,7 @@ looker.plugins.visualizations.add({
   updateAsync: function(data, element, config, queryResponse, details, done) {
     this.clearErrors();
     var obj_name = document.querySelector('.select_list').value
+    console.log(eval(obj_name))
     tree.loadData(eval(obj_name));
     $('.collapse_btn').click(function () {
       tree.collapse()
