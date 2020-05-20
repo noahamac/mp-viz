@@ -74,3 +74,9 @@ visualization: {
   # file: "multiple_value.js"
   url: "https://localhost:4443/elevenup.js"
 }
+visualization: {
+  id: "us_faces_covid"
+  label: "Covid Chernoff"
+  # file: "multiple_value.js"
+  url: "https://localhost:4443/us_faces.js"
+}
