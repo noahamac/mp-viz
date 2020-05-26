@@ -48,6 +48,12 @@ visualization: {
   file: "calendar_chart.js"
   # url: "https://localhost:4443/calendar_chart.js"
 }
+visualization: {
+  id: "sunburst-marketplace-dev"
+  label: "Sunburst Dev"
+  url: "https://localhost:4443/dist/sunburst.js"
+
+}
 
 
 # Other Viz
