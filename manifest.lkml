@@ -16,7 +16,8 @@ visualization: {
 visualization: {
   id: "bargauge-next-marketplace-dev"
   label: "Bar Gauge Dev"
-  file: "bargauge.js"
+  # file: "bargauge.js"
+  url: "https://localhost:4443/bargauge.js"
 }
 visualization: {
   id: "packed-bubble-marketplace-dev"
