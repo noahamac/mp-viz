@@ -32,3 +32,9 @@ color_array: {
   display: "colors"
 }
 ```
+
+### Code Review Process
+
+1. Upload the viz's dist file to this project and reference it from its dev visualization object in the project manifest
+2. Stage a PR containing a problem summary (if relevant), your appraoch in addressing the problem (use human words not code to explain), and a screenshot/gif/screen recording demoing the fix with a link to either the app.dev Side by Side dashboard or an explore
+3. Request a review from TJ or Noah
