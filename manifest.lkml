@@ -53,8 +53,8 @@ visualization: {
 visualization: {
   id: "sunburst-marketplace-dev"
   label: "Sunburst Dev"
-  #file: "sunburst.js"
-  url: "https://localhost:4443/sunburst.js"
+  file: "sunburst.js"
+  #url: "https://localhost:4443/sunburst.js"
 }
 
 
