@@ -56,6 +56,12 @@ visualization: {
   file: "sunburst.js"
   #url: "https://localhost:4443/sunburst.js"
 }
+visualization: {
+  id: "collapsible-tree-dev"
+  label: "Collapsible Tree Dev"
+  url: "https://localhost:4443/collapsible_tree.js"
+}
+
 
 
 # Other Viz
