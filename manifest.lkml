@@ -59,7 +59,8 @@ visualization: {
 visualization: {
   id: "collapsible-tree-dev"
   label: "Collapsible Tree Dev"
-  url: "https://localhost:4443/collapsible_tree.js"
+  # url: "https://localhost:4443/collapsible_tree.js"
+  file: "collapsible_tree.js"
 }
 
 
@@ -82,12 +83,12 @@ visualization: {
   file: "viz-inspector.js"
   dependencies: ["https://code.jquery.com/jquery-3.4.1.min.js", "https://cdn.jsdelivr.net/npm/json-tree-viewer@0.0.2/libs/jsonTree/jsonTree.min.js"]
 }
-visualization: {
-  id: "elevenup-viz"
-  label: "ElevenUp Dev"
-  # file: "multiple_value.js"
-  url: "https://localhost:4443/elevenup.js"
-}
+# visualization: {
+#   id: "elevenup-viz"
+#   label: "ElevenUp Dev"
+#   # file: "multiple_value.js"
+#   url: "https://localhost:4443/elevenup.js"
+# }
 visualization: {
   id: "us_faces_covid"
   label: "Covid Chernoff"
