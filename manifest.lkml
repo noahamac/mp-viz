@@ -63,6 +63,13 @@ visualization: {
   file: "collapsible_tree.js"
 }
 
+visualization: {
+  id: "leaderboard-dev"
+  label: "Leaderboard Dev"
+  url: "https://localhost:4443/dist/leaderboard.js"
+  #file: "leaderboard.js"
+}
+
 
 
 # Other Viz
