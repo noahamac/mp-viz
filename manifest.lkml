@@ -64,9 +64,9 @@ visualization: {
 }
 
 visualization: {
-  id: "leaderboard-dev"
-  label: "Leaderboard Dev"
-  url: "https://localhost:4443/dist/leaderboard.js"
+  id: "hello-world-tsx"
+  label: "Hello World tsx"
+  url: "https://localhost:4443/dist/hello_world.js"
   #file: "leaderboard.js"
 }
 
