@@ -66,8 +66,8 @@ visualization: {
 visualization: {
   id: "hello-world-tsx"
   label: "Hello World tsx"
-  #url: "https://localhost:4443/radialgauge.js"
-  file: "hello_world.js"
+  url: "https://localhost:4443/dist/hello_world.js"
+  #file: "hello_world.js"
 }
 
 
