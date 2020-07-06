@@ -70,6 +70,13 @@ visualization: {
   #file: "hello_world.js"
 }
 
+visualization: {
+  id: "vega-contour"
+  label: "Vega Contour Dev"
+  url: "https://localhost:4443/vega-contour.js"
+  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
+}
+
 
 
 # Other Viz
