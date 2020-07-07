@@ -66,7 +66,7 @@ visualization: {
 visualization: {
   id: "binned-hist-dev"
   label: "Binned Histogram Dev"
-  url: "https://localhost:4443/binned-hist.js"
+  url: "https://localhost:4443/binned_hist.js"
 }
 
 
