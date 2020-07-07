@@ -64,24 +64,9 @@ visualization: {
 }
 
 visualization: {
-  id: "hello-world-tsx"
-  label: "Hello World tsx"
-  url: "https://localhost:4443/dist/hello_world.js"
-  #file: "hello_world.js"
-}
-
-visualization: {
-  id: "vega-contour"
-  label: "Vega Contour"
-  file: "vega-contour.js"
-  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
-}
-
-visualization: {
-  id: "vega-binned-hist"
-  label: "Vega Binned Hist"
-  file: "binned-hist.js"
-  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
+  id: "binned-hist-dev"
+  label: "Binned Histogram Dev"
+  url: "https://localhost:4443/binned-hist.js"
 }
 
 
@@ -115,4 +100,25 @@ visualization: {
   label: "Covid Chernoff"
   # file: "multiple_value.js"
   url: "https://localhost:4443/us_faces.js"
+}
+
+visualization: {
+  id: "hello-world-tsx"
+  label: "Hello World tsx"
+  url: "https://localhost:4443/dist/hello_world.js"
+  #file: "hello_world.js"
+}
+
+visualization: {
+  id: "vega-contour"
+  label: "Vega Contour"
+  file: "vega-contour.js"
+  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
+}
+
+visualization: {
+  id: "vega-binned-hist"
+  label: "Vega Binned Hist"
+  file: "binned-hist.js"
+  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
 }
