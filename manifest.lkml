@@ -62,11 +62,15 @@ visualization: {
   # url: "https://localhost:4443/collapsible_tree.js"
   file: "collapsible_tree.js"
 }
-
 visualization: {
   id: "binned-hist-dev"
   label: "Binned Histogram Dev"
   url: "https://localhost:4443/binned_hist.js"
+}
+visualization: {
+  id: "report-table-dev"
+  label: "Report Table Dev"
+  file: "report_table.js"
 }
 
 
