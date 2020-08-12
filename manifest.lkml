@@ -74,6 +74,11 @@ visualization: {
   #file: "report_table.js"
   url: "https://localhost:4443/report_table.js"
 }
+visualization: {
+  id: "liquid-fill-dev"
+  label: "Liquid Fill Dev"
+  url: "https://localhost:4443/dist/liquid_fill_gauge.js"
+}
 
 
 
