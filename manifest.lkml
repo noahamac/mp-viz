@@ -24,8 +24,8 @@ visualization: {
 visualization: {
   id: "packed-bubble-marketplace-dev"
   label: "Packed Bubble Dev"
-  file: "packed_bubble.js"
-  # url: "https://localhost:4443/packed_bubble.js"
+  #file: "packed_bubble.js"
+   url: "https://localhost:4443/packed_bubble.js"
 }
 visualization: {
   id: "aster-plot-marketplace-dev"
