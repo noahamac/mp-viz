@@ -8,6 +8,11 @@ visualization: {
   file: "multiple_value_dev.js"
   # url: "https://localhost:4443/multiple_value.js"
 }
+visualization: {
+  id: "multiple-value-cdn"
+  label: "Multiple Value CDN"
+  url: "https://marketplace-api.looker.com/viz-dist/multiple_value.js"
+}
 
 visualization: {
   id: "radialgauge-next-marketplace-dev"
