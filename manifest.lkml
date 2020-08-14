@@ -15,6 +15,12 @@ visualization: {
 }
 
 visualization: {
+  id: "cartoon-viz-dev"
+  label: "Cartoon Viz Dev"
+  url: "https://localhost:4443/dist/cartoon.js"
+}
+
+visualization: {
   id: "radialgauge-next-marketplace-dev"
   label: "Radial Gauge Dev"
   # file: "radialgauge.js"
