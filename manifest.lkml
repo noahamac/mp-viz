@@ -137,7 +137,12 @@ visualization: {
   file: "vega-contour.js"
   dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
 }
-
+visualization: {
+  id: "multiviz-vx-dev"
+  label: "Multiviz"
+  # file: "multiviz.js"
+  url: "http://localhost:8084/webpack-dev-server/multiviz.js"
+}
 visualization: {
   id: "vega-binned-hist"
   label: "Vega Binned Hist"
