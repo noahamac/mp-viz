@@ -141,7 +141,7 @@ visualization: {
   id: "multiviz-vx-dev"
   label: "Multiviz"
   # file: "multiviz.js"
-  url: "http://localhost:8084/webpack-dev-server/multiviz.js"
+  url: "https://localhost:8084/webpack-dev-server/multiviz.js"
 }
 visualization: {
   id: "vega-binned-hist"
