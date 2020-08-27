@@ -149,3 +149,17 @@ visualization: {
   file: "binned-hist.js"
   dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
 }
+
+application: dev-data-dictionary {
+  label: "Dev Data Dictionary"
+  # url: "http://127.0.0.1:8080/bundle.js"
+  url: "https://localhost:8080/webpack-dev-server/dist/bundle.js"
+  # file: "try1.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
+    new_window: yes
+    allow_same_origin: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+  }
+}
