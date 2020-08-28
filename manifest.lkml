@@ -13,7 +13,6 @@ visualization: {
   label: "Multiple Value CDN"
   url: "https://marketplace-api.looker.com/viz-dist/multiple_value.js"
 }
-
 visualization: {
   id: "cartoon-viz-dev"
   label: "Cartoon Viz Dev"
@@ -77,7 +76,7 @@ visualization: {
 visualization: {
   id: "binned-hist-dev"
   label: "Binned Histogram Dev"
-  url: "https://localhost:4443/binned_hist.js"
+  file: "binned_hist.js"
 }
 visualization: {
   id: "report-table-dev"
@@ -135,12 +134,5 @@ visualization: {
   id: "vega-contour"
   label: "Vega Contour"
   file: "vega-contour.js"
-  dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
-}
-
-visualization: {
-  id: "vega-binned-hist"
-  label: "Vega Binned Hist"
-  file: "binned-hist.js"
   dependencies: ["https://cdn.jsdelivr.net/npm/vega@4.3.0", "https://cdn.jsdelivr.net/npm/vega-lite@2.6.0", "https://cdn.jsdelivr.net/npm/vega-embed@3.20.0"]
 }
