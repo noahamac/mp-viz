@@ -149,7 +149,7 @@ visualization: {
 application: dev-data-dictionary {
   label: "Dev Data Dictionary"
   # url: "http://127.0.0.1:8080/bundle.js"
-  url: "https://localhost:8080/webpack-dev-server/dist/bundle.js"
+  url: "http://localhost:8080/bundle.js"
   # file: "try1.js"
   entitlements: {
     local_storage: yes
