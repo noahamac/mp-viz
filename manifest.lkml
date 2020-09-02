@@ -4,10 +4,10 @@ project_name: "mp-viz"
 visualization: {
   id: "multiple-value-dev"
   label: "Multiple Value Dev"
-  file: "multiple_value.js"
+  # file: "multiple_value.js"
   # file: "multiple_value_dev.js"
   # url: "https://localhost:4443/multiple_value.js"
-  # url: "https://localhost:8080/multiple_value.js"
+  url: "https://localhost:8080/multiple_value.js"
 }
 visualization: {
   id: "multiple-value-cdn"
