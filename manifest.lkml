@@ -159,3 +159,17 @@ application: dev-data-dictionary {
     core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
   }
 }
+
+application: dev2-data-dictionary {
+  label: "Dev2 Data Dictionary"
+  url: "http://127.0.0.1:8080/bundle.js"
+  # url: "http://localhost:8080/bundle.js"
+  # file: "bundle.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
+    new_window: yes
+    allow_same_origin: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+  }
+}
