@@ -78,7 +78,8 @@ visualization: {
 visualization: {
   id: "hist-dev"
   label: "Histogram Dev"
-  file: "histogram.js"
+  #file: "histogram.js"
+  url: "https://localhost:4443/histogram.js"
 }
 visualization: {
   id: "report-table-dev"
