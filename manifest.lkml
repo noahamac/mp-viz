@@ -25,7 +25,7 @@ visualization: {
   label: "Radial Gauge Dev"
   # file: "radialgauge.js"
   # url: "https://localhost:4443/radialgauge.js"
-  url: "http://localhost:8081/radialgauge.js"
+  url: "https://localhost:8081/radialgauge.js"
 }
 visualization: {
   id: "bargauge-next-marketplace-dev"
@@ -78,8 +78,8 @@ visualization: {
 visualization: {
   id: "hist-dev"
   label: "Histogram Dev"
-  #file: "histogram.js"
-  url: "https://localhost:4443/histogram.js"
+  file: "histogram.js"
+  #url: "https://localhost:4443/histogram.js"
 }
 visualization: {
   id: "report-table-dev"
