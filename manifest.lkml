@@ -23,9 +23,9 @@ visualization: {
 visualization: {
   id: "radialgauge-next-marketplace-dev"
   label: "Radial Gauge Dev"
-  # file: "radialgauge.js"
+  file: "radialgauge.js"
   # url: "https://localhost:4443/radialgauge.js"
-  url: "http://localhost:8080/radialgauge.js"
+  # url: "http://localhost:8080/radialgauge.js"
 }
 visualization: {
   id: "bargauge-next-marketplace-dev"
