@@ -188,6 +188,18 @@ application: vizzy {
   }
 }
 
+application: 2020model {
+  label: "2020 Model"
+  file: "2020model.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
+    new_window: yes
+    allow_same_origin: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+  }
+}
+
 application: vizzy_prod {
   label: "Vizzy (Prod)"
   file: "vizzy_hw.js"
