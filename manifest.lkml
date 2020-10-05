@@ -23,9 +23,9 @@ visualization: {
 visualization: {
   id: "radialgauge-next-marketplace-dev"
   label: "Radial Gauge Dev"
-  # file: "radialgauge.js"
+  file: "radialgauge.js"
   # url: "https://localhost:4443/radialgauge.js"
-  url: "http://localhost:8080/radialgauge.js"
+  # url: "http://localhost:8080/radialgauge.js"
 }
 visualization: {
   id: "bargauge-next-marketplace-dev"
@@ -179,6 +179,18 @@ application: dev2-data-dictionary {
 application: vizzy {
   label: "Vizzy (Dev)"
   url: "http://127.0.0.1:8080/bundle.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
+    new_window: yes
+    allow_same_origin: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+  }
+}
+
+application: 2020model {
+  label: "2020 Model"
+  file: "2020model.js"
   entitlements: {
     local_storage: yes
     navigation: yes
