@@ -61,7 +61,7 @@ visualization: {
   id: "calendar-heatmap-marketplace-dev"
   label: "Calendar Heatmap Dev"
   #file: "calendar_chart.js"
-  url: "https://localhost:4443/calendar_chart.js"
+  url: "http://localhost:8080/calendar_chart.js"
 }
 visualization: {
   id: "sunburst-marketplace-dev"
