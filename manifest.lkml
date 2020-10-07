@@ -176,8 +176,8 @@ application: dev2-data-dictionary {
   }
 }
 
-application: vizzy {
-  label: "Vizzy (Dev)"
+application: dev_ext {
+  label: "127.0.0.1:8080/bundle.js"
   url: "http://127.0.0.1:8080/bundle.js"
   entitlements: {
     local_storage: yes
