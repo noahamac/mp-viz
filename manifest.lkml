@@ -190,7 +190,7 @@ application: dev_ext {
 
 application: 2020model {
   label: "2020 Model"
-  file: "2020model.js"
+  file: "2020modelv2.js"
   entitlements: {
     local_storage: yes
     navigation: yes
