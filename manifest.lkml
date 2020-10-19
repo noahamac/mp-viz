@@ -136,8 +136,8 @@ visualization: {
 visualization: {
   id: "viz-inspector-2"
   label: "Viz Inspector 2.0"
-  url: "http://localhost:8080/dist.js"
-  # file: "viz_inspector_2v1.js"
+  # url: "http://localhost:8080/dist.js"
+  file: "viz_inspector_2v2.js"
 }
 
 visualization: {
