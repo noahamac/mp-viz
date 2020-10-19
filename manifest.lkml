@@ -134,6 +134,12 @@ visualization: {
 }
 
 visualization: {
+  id: "viz-inspector-2"
+  label: "Viz Inspector 2.0"
+  url: "http://localhost:8080/dist.js"
+}
+
+visualization: {
   id: "vega-contour"
   label: "Vega Contour"
   file: "vega-contour.js"
