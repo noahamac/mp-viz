@@ -60,8 +60,8 @@ visualization: {
 visualization: {
   id: "calendar-heatmap-marketplace-dev"
   label: "Calendar Heatmap Dev"
-  #file: "calendar_chart.js"
-  url: "https://localhost:4443/calendar_chart.js"
+  # file: "calendar_chart.js"
+  url: "http://localhost:8080/calendar_chart.js"
 }
 visualization: {
   id: "sunburst-marketplace-dev"
@@ -134,6 +134,13 @@ visualization: {
 }
 
 visualization: {
+  id: "viz-inspector-2"
+  label: "Viz Inspector 2.0"
+  # url: "http://localhost:8080/dist.js"
+  file: "viz_inspector_2v2.js"
+}
+
+visualization: {
   id: "vega-contour"
   label: "Vega Contour"
   file: "vega-contour.js"
@@ -164,9 +171,9 @@ application: dev-data-dictionary {
 
 application: dev2-data-dictionary {
   label: "Dev2 Data Dictionary"
-  url: "http://127.0.0.1:8080/bundle.js"
-  # url: "http://localhost:8080/bundle.js"
-  # file: "bundle.js"
+  # url: "http://127.0.0.1:8080/bundle.js"
+  # # url: "http://localhost:8080/bundle.js"
+  file: "dd3.js"
   entitlements: {
     local_storage: yes
     navigation: yes
@@ -176,21 +183,32 @@ application: dev2-data-dictionary {
   }
 }
 
-application: vizzy {
-  label: "Vizzy (Dev)"
-  url: "http://127.0.0.1:8080/bundle.js"
+application: dd_v4 {
+  label: "Data Dictionary (PR)"
+  file: "ddv4.js"
   entitlements: {
     local_storage: yes
     navigation: yes
     new_window: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups"]
+  }
+}
+
+application: dev_ext {
+  label: "127.0.0.1:8080/bundle.js"
+  url: "http://127.0.0.1:8080/bundle.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
     allow_same_origin: yes
-    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+    new_window: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups"]
   }
 }
 
 application: 2020model {
   label: "2020 Model"
-  file: "2020model.js"
+  file: "2020modelv2.js"
   entitlements: {
     local_storage: yes
     navigation: yes
