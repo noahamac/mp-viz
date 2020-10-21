@@ -183,6 +183,17 @@ application: dev2-data-dictionary {
   }
 }
 
+application: dd_v4 {
+  label: "Data Dictionary (PR)"
+  file: "ddv4.js"
+  entitlements: {
+    local_storage: yes
+    navigation: yes
+    new_window: yes
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups"]
+  }
+}
+
 application: dev_ext {
   label: "127.0.0.1:8080/bundle.js"
   url: "http://127.0.0.1:8080/bundle.js"
