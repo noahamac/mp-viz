@@ -141,6 +141,13 @@ visualization: {
 }
 
 visualization: {
+  id: "viz-spider-2"
+  label: "Spider 2.0"
+  url: "http://localhost:8081/spider.js"
+  # file: "viz_inspector_2v2.js"
+}
+
+visualization: {
   id: "vega-contour"
   label: "Vega Contour"
   file: "vega-contour.js"
