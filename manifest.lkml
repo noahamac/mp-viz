@@ -193,7 +193,7 @@ application: dev2-data-dictionary {
 
 application: dd_v4 {
   label: "Data Dictionary (PR)"
-  file: "ddv4.js"
+  file: "dd_5.js"
   entitlements: {
     local_storage: yes
     navigation: yes
