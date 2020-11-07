@@ -174,11 +174,6 @@ application: lookml-diagram {
   }
 }
 
-constant: CONNECTION_NAME {
-  value: "choose-connection"
-  export: override_required
-}
-
 
 
 application: dev-data-dictionary {
