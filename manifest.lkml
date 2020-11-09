@@ -3,7 +3,7 @@ project_name: "mp-viz"
 # Marketplace Viz Dev Versions
 visualization: {
   id: "multiple-value-dev"
-  label: "Multiple Value Dev"
+  label: "Multiple Value Dev Fonts"
   file: "multiple_value_dev.js"
   # url: "https://localhost:4443/multiple_value.js"
   # url: "https://localhost:8080/multiple_value.js"
