@@ -165,7 +165,7 @@ visualization: {
 
 application: lookml-diagram {
   label: "LookML Diagram"
-  file: "lookmldiagram1.js"
+  file: "lookmldiagram2.js"
   entitlements: {
     local_storage: yes
     navigation: yes
