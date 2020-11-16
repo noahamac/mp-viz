@@ -91,6 +91,12 @@ visualization: {
   label: "Liquid Fill Dev"
   url: "https://localhost:4443/dist/liquid_fill_gauge.js"
 }
+visualization: {
+  id: "iframe-window-test"
+  label: "iFrame Embed Test"
+  # file: "calendar_chart.js"
+  url: "http://localhost:8080/spider.js"
+}
 
 
 
