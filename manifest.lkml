@@ -184,9 +184,9 @@ application: lookml-diagram {
 
 application: dev-data-dictionary {
   label: "Dev Data Dictionary"
-  # url: "http://127.0.0.1:8080/bundle.js"
+  url: "http://127.0.0.1:8080/bundle.js"
   # url: "http://localhost:8080/bundle.js"
-  file: "bundle.js"
+  # file: "bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
