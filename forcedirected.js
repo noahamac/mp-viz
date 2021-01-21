@@ -1,97 +1,97 @@
 (function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["forcedirected"] = factory();
-	else
-		root["forcedirected"] = factory();
+  if(typeof exports === 'object' && typeof module === 'object')
+    module.exports = factory();
+  else if(typeof define === 'function' && define.amd)
+    define([], factory);
+  else if(typeof exports === 'object')
+    exports["forcedirected"] = factory();
+  else
+    root["forcedirected"] = factory();
 })(window, function() {
 return /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
+/******/  // The module cache
+/******/  var installedModules = {};
 /******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
+/******/  // The require function
+/******/  function __webpack_require__(moduleId) {
 /******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
+/******/    // Check if module is in cache
+/******/    if(installedModules[moduleId]) {
+/******/      return installedModules[moduleId].exports;
+/******/    }
+/******/    // Create a new module (and put it into the cache)
+/******/    var module = installedModules[moduleId] = {
+/******/      i: moduleId,
+/******/      l: false,
+/******/      exports: {}
+/******/    };
 /******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/    // Execute the module function
+/******/    modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
+/******/    // Flag the module as loaded
+/******/    module.l = true;
 /******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/    // Return the exports of the module
+/******/    return module.exports;
+/******/  }
 /******/
 /******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/force-directed.ts");
+/******/  // expose the modules object (__webpack_modules__)
+/******/  __webpack_require__.m = modules;
+/******/
+/******/  // expose the module cache
+/******/  __webpack_require__.c = installedModules;
+/******/
+/******/  // define getter function for harmony exports
+/******/  __webpack_require__.d = function(exports, name, getter) {
+/******/    if(!__webpack_require__.o(exports, name)) {
+/******/      Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/    }
+/******/  };
+/******/
+/******/  // define __esModule on exports
+/******/  __webpack_require__.r = function(exports) {
+/******/    if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/      Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/    }
+/******/    Object.defineProperty(exports, '__esModule', { value: true });
+/******/  };
+/******/
+/******/  // create a fake namespace object
+/******/  // mode & 1: value is a module id, require it
+/******/  // mode & 2: merge all properties of value into the ns
+/******/  // mode & 4: return value when already ns object
+/******/  // mode & 8|1: behave like require
+/******/  __webpack_require__.t = function(value, mode) {
+/******/    if(mode & 1) value = __webpack_require__(value);
+/******/    if(mode & 8) return value;
+/******/    if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/    var ns = Object.create(null);
+/******/    __webpack_require__.r(ns);
+/******/    Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/    if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/    return ns;
+/******/  };
+/******/
+/******/  // getDefaultExport function for compatibility with non-harmony modules
+/******/  __webpack_require__.n = function(module) {
+/******/    var getter = module && module.__esModule ?
+/******/      function getDefault() { return module['default']; } :
+/******/      function getModuleExports() { return module; };
+/******/    __webpack_require__.d(getter, 'a', getter);
+/******/    return getter;
+/******/  };
+/******/
+/******/  // Object.prototype.hasOwnProperty.call
+/******/  __webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/  // __webpack_public_path__
+/******/  __webpack_require__.p = "";
+/******/
+/******/
+/******/  // Load entry module and return exports
+/******/  return __webpack_require__(__webpack_require__.s = "./src/force-directed.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6391,7 +6391,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var d3__
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initTooltip\", function() { return initTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"linkTooltip\", function() { return linkTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"nodeTooltip\", function() { return nodeTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"updatePosition\", function() { return updatePosition; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hideTooltip\", function() { return hideTooltip; });\n/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3 */ \"./node_modules/d3/index.js\");\n/* harmony import */ var ssf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ssf */ \"./node_modules/ssf/ssf.js\");\n/* harmony import */ var ssf__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(ssf__WEBPACK_IMPORTED_MODULE_1__);\n\n\nvar yPadding = 15;\nvar xPadding = 5;\nfunction initTooltip(fontSize) {\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"selectAll\"])(\"#tooltip\").remove();\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#vis\")\n        .insert(\"div\", \":first-child\")\n        .attr(\"id\", \"tooltip\")\n        .style(\"opacity\", 0)\n        .style(\"position\", \"absolute\")\n        .style(\"background-color\", \"rgba(0, 0, 0, 0.75)\")\n        .style(\"border-color\", \"rgba(0, 0, 0, 0.75)\")\n        .style(\"border-radius\", \"5px\")\n        .style(\"width\", \"auto\")\n        .style(\"text-align\", \"left\")\n        .style(\"padding\", \"5px\")\n        .style(\"color\", \"#FFFFFF\")\n        .style(\"font-size\", fontSize + \"px\");\n}\nfunction linkTooltip(d, event, dragging, measure, valFormat) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        var html = \"Source: <b>\" + d.source.id + \"</b>\";\n        if (d.source.id !== d.target.id) {\n            html += \"<br/ >Target: <b>\" + d.target.id + \"</b> \";\n        }\n        if (measure) {\n            html += \"<br>\" + (measure.label_short || measure.label) + \": <b>\" + Object(ssf__WEBPACK_IMPORTED_MODULE_1__[\"format\"])(valFormat, d.value) + \"</b>\";\n        }\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - 20 + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\")\n            .style(\"opacity\", 1)\n            .html(html);\n    }\n}\nfunction nodeTooltip(d, event, dragging) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        var html = \"<b>\" + d.id + \"</b>\";\n        if (d.id !== d.group) {\n            html += \"<br/><b>\" + d.group + \"</b>\";\n        }\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - 15 + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\")\n            .html(html)\n            .style(\"opacity\", 1);\n    }\n}\nfunction updatePosition(d, event, dragging, type) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - xPadding + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\");\n    }\n}\nfunction hideTooltip() {\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\").style(\"opacity\", 0).style(\"left\", 0);\n}\nfunction yOffset() {\n    return parseInt(Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\").style(\"height\"), 10) + yPadding;\n}\n\n\n//# sourceURL=webpack://%5Bname%5D/./src/tooltip.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initTooltip\", function() { return initTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"linkTooltip\", function() { return linkTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"nodeTooltip\", function() { return nodeTooltip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"updatePosition\", function() { return updatePosition; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hideTooltip\", function() { return hideTooltip; });\n/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! d3 */ \"./node_modules/d3/index.js\");\n/* harmony import */ var ssf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ssf */ \"./node_modules/ssf/ssf.js\");\n/* harmony import */ var ssf__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(ssf__WEBPACK_IMPORTED_MODULE_1__);\n\n\nvar yPadding = 15;\nvar xPadding = 5;\nfunction initTooltip(fontSize) {\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"selectAll\"])(\"#tooltip\").remove();\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#vis\")\n        .insert(\"div\", \":first-child\")\n        .attr(\"id\", \"tooltip\")\n        .style(\"opacity\", 0)\n        .style(\"position\", \"absolute\")\n        .style(\"background-color\", \"rgba(0, 0, 0, 0.75)\")\n        .style(\"border-color\", \"rgba(0, 0, 0, 0.75)\")\n        .style(\"border-radius\", \"5px\")\n        .style(\"width\", \"auto\")\n        .style(\"text-align\", \"left\")\n        .style(\"padding\", \"5px\")\n        .style(\"color\", \"#FFFFFF\")\n        .style(\"font-size\", fontSize + \"px\");\n}\nfunction linkTooltip(d, event, dragging, measure, valFormat) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        var html = \"Source: <b>\" + d.source.id + \"</b>\";\n        if (d.source.id !== d.target.id) {\n            html += \"<br/ >Target: <b>\" + d.target.id + \"</b> \";\n        }\n        if (measure) {\n            html += \"<br>\" + (measure.label_short || measure.label) + \": <b>\" + Object(ssf__WEBPACK_IMPORTED_MODULE_1__[\"format\"])(valFormat, d.value) + \"</b>\";\n        }\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - 20 + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\")\n            .style(\"opacity\", 1)\n            .html(html);\n    }\n}\nfunction nodeTooltip(d, event, dragging) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        var html = d.nodeField + \": <b>\" + d.id + \"</b>\";\n        if (d.id !== d.group) {\n            html += \"<br/>\" + d.groupField + \": <b>\" + d.group + \"</b>\";\n        }\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - 15 + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\")\n            .html(html)\n            .style(\"opacity\", 1);\n    }\n}\nfunction updatePosition(d, event, dragging, type) {\n    if (!dragging) {\n        var pageX = event.pageX, pageY = event.pageY;\n        Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\")\n            .style(\"left\", pageX - xPadding + \"px\")\n            .style(\"top\", pageY - yOffset() + \"px\");\n    }\n}\nfunction hideTooltip() {\n    Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\").style(\"opacity\", 0).style(\"left\", 0);\n}\nfunction yOffset() {\n    return parseInt(Object(d3__WEBPACK_IMPORTED_MODULE_0__[\"select\"])(\"#tooltip\").style(\"height\"), 10) + yPadding;\n}\n\n\n//# sourceURL=webpack://%5Bname%5D/./src/tooltip.ts?");
 
 /***/ }),
 
