@@ -102,8 +102,8 @@ visualization: {
 visualization: {
   id: "force-directed-dev"
   label: "Force Directed Dev 2"
-  #file: "forcedirected.js"
-  url: "https://localhost:4443/forcedirected.js"
+  file: "forcedirected.js"
+  #url: "https://localhost:4443/forcedirected.js"
 }
 
 
