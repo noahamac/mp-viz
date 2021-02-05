@@ -86,6 +86,12 @@ visualization: {
   url: "https://localhost:4443/histogram.js"
 }
 visualization: {
+  id: "hist-dev"
+  label: "Histogram Dev WORKS"
+  file: "histogram.js"
+  #url: "https://localhost:4443/histogram.js"
+}
+visualization: {
   id: "report-table-dev"
   label: "Report Table Dev"
   file: "report_table.js"
