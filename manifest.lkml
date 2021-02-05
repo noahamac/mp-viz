@@ -86,7 +86,7 @@ visualization: {
   url: "https://localhost:4443/histogram.js"
 }
 visualization: {
-  id: "hist-dev"
+  id: "WORKS--hist-dev"
   label: "Histogram Dev WORKS"
   file: "histogram.js"
   #url: "https://localhost:4443/histogram.js"
