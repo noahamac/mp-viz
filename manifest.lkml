@@ -63,6 +63,11 @@ visualization: {
   url: "http://localhost:8080/calendar_chart.js"
 }
 visualization: {
+  id: "calendar-heatmap-marketplace-staging"
+  label: "Calendar Heatmap Staging"
+  url: "https://marketplace-api.looker.com/staging/app-assets/calendar_heatmap.js"
+}
+visualization: {
   id: "sunburst-marketplace-dev"
   label: "Sunburst Dev"
   file: "sunburst.js"
