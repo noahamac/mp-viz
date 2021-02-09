@@ -80,10 +80,10 @@ visualization: {
   file: "collapsible_tree.js"
 }
 visualization: {
-  id: "hist-dev"
-  label: "Histogram Dev"
-  #file: "histogram.js"
-  url: "https://localhost:4443/histogram.js"
+  id: "hist-dev-v2"
+  label: "Histogram Dev V2"
+  file: "histogram.js"
+  #url: "https://localhost:4443/histogram.js"
 }
 visualization: {
   id: "WORKS--hist-dev"
