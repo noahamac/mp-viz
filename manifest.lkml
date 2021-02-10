@@ -82,8 +82,8 @@ visualization: {
 visualization: {
   id: "hist-dev-v2"
   label: "Histogram Dev V2"
-  file: "histogram.js"
-  #url: "https://localhost:4443/histogram.js"
+  #file: "histogram.js"
+  url: "https://localhost:4443/histogram.js"
 }
 visualization: {
   id: "WORKS--hist-dev"
