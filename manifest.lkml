@@ -2,6 +2,11 @@ project_name: "mp-viz"
 
 # Marketplace Viz Dev Versions
 visualization: {
+  id: "viz-package-testing"
+  label: "Viz Package"
+  url: "https://localhost:8080/viz.js"
+}
+visualization: {
   id: "multiple-value-dev"
   label: "Multiple Value Dev Fonts"
   file: "multiple_value_dev.js"
