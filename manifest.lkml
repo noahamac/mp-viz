@@ -108,9 +108,9 @@ visualization: {
   #url: "https://localhost:4443/report_table.js"
 }
 visualization: {
-  id: "liquid-fill-dev"
-  label: "Liquid Fill Dev"
-  url: "https://localhost:4443/dist/liquid_fill_gauge.js"
+  id: "Ziggurat-dev"
+  label: "Ziggurat"
+  url: "http://localhost:8080/bundle.js"
 }
 visualization: {
   id: "iframe-window-test"
@@ -208,7 +208,7 @@ application: dev-data-dictionary {
     navigation: yes
     new_window: yes
     allow_same_origin: yes
-    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
+    core_api_methods: ["new_window_external_urls", "run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
     }
 }
 
@@ -245,7 +245,8 @@ application: dev_ext {
     navigation: yes
     allow_same_origin: yes
     new_window: yes
-    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
+    new_window_external_urls: ["https://docs.looker.com/data-modeling/extension-framework/lookml-diagram"]
+    core_api_methods: ["new_window_external_urls","run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
     }
 }
 application: dev_ext2 {
