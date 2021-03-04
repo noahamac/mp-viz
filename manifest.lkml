@@ -7,6 +7,11 @@ visualization: {
   url: "https://localhost:8080/viz.js"
 }
 visualization: {
+  id: "calendar-tooltip-hack"
+  label: "Calendar Heatmap Tooltip"
+  file: "calendar_chart_tooltip_hack.js"
+}
+visualization: {
   id: "multiple-value-dev"
   label: "Multiple Value Dev Fonts"
   file: "multiple_value_dev.js"
