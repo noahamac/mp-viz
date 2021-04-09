@@ -248,7 +248,7 @@ application: dev_ext {
     new_window: yes
     new_window_external_urls: ["https://docs.looker.com/data-modeling/extension-framework/lookml-diagram"]
     core_api_methods: ["new_window_external_urls","run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
-    }
+  }
 }
 application: dev_ext2 {
   label: "127.0.0.1:8081/bundle.js"
@@ -258,7 +258,8 @@ application: dev_ext2 {
     navigation: yes
     allow_same_origin: yes
     new_window: yes
-    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups"]
+    new_window_external_urls: ["https://docs.looker.com/data-modeling/extension-framework/lookml-diagram"]
+    core_api_methods: ["new_window_external_urls","run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
   }
 }
 
@@ -284,5 +285,17 @@ application: vizzy_prod {
     new_window: yes
     allow_same_origin: yes
     core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+  }
+}
+
+application: lookml-diagram {
+  label: "LookML Diagram"
+  file: "dist/bundle.js"
+  entitlements: {
+    local_storage: yes
+    new_window_external_urls: ["https://docs.looker.com/data-modeling/extension-framework/lookml-diagram"]
+    navigation: yes
+    new_window: yes
+    core_api_methods: ["new_window_external_urls", "run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
   }
 }
