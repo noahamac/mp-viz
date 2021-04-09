@@ -13,9 +13,9 @@ visualization: {
 }
 visualization: {
   id: "multiple-value-dev"
-  label: "Multiple Value Dev Fonts"
-  file: "multiple_value_dev.js"
-  # url: "https://localhost:4443/multiple_value.js"
+  label: "Multiple Value Dev fonts"
+  # file: "multiple_value_dev.js"
+  url: "https://localhost:4443/multiple_value.js"
   # url: "https://localhost:8080/multiple_value.js"
 }
 visualization: {
