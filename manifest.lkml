@@ -227,8 +227,12 @@ application: dev2-data-dictionary {
     local_storage: yes
     navigation: yes
     new_window: yes
+    new_window_external_urls: []
+    allow_forms: yes
     allow_same_origin: yes
-    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me"]
+    core_api_methods: ["run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups"]
+    external_api_urls: []
+    oauth2_urls: []
   }
 }
 
