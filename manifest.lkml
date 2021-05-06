@@ -220,9 +220,9 @@ application: dev-data-dictionary {
 
 application: dev2-data-dictionary {
   label: "Dev2 Data Dictionary"
-  # url: "http://127.0.0.1:8080/bundle.js"
+  url: "http://localhost:8081/bundle.js"
   # # url: "http://localhost:8080/bundle.js"
-  file: "dd3.js"
+  # file: "dd3.js"
   entitlements: {
     local_storage: yes
     navigation: yes
