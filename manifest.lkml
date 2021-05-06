@@ -37,6 +37,11 @@ visualization: {
   # url: "http://localhost:8080/radialgauge.js"
 }
 visualization: {
+  id: "viz-dev-8081"
+  label: "localhost:8081/bundle.js"
+  url: "http://localhost:8081/bundle.js"
+}
+visualization: {
   id: "bargauge-next-marketplace-dev"
   label: "Bar Gauge Dev"
   #file: "bargauge.js"
