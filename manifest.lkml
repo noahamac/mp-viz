@@ -3,8 +3,8 @@ project_name: "mp-viz"
 # Marketplace Viz Dev Versions
 visualization: {
   id: "viz-package-testing"
-  label: "Viz Package"
-  url: "https://localhost:8080/viz.js"
+  label: "Vizzy"
+  url: "http://localhost:8080/dist/bundle.js"
 }
 visualization: {
   id: "calendar-tooltip-hack"
