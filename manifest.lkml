@@ -4,7 +4,7 @@ project_name: "mp-viz"
 visualization: {
   id: "viz-package-testing"
   label: "Vizzy"
-  url: "http://localhost:8080/dist/bundle.js"
+  url: "http://localhost:8080/bundle.js"
 }
 visualization: {
   id: "calendar-tooltip-hack"
