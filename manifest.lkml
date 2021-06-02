@@ -331,7 +331,7 @@ application: advanced-lookml-diagram {
 
 application: api-explorer {
   label: "API Explorer (Dev)"
-  url: "https://0.0.0.0:8080/dist/bundle.js"
+  url: "https://localhost:8080/dist/bundle.js"
 
   entitlements: {
     local_storage: yes
