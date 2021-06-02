@@ -328,3 +328,21 @@ application: advanced-lookml-diagram {
     core_api_methods: ["new_window_external_urls", "run_inline_query", "lookml_model_explore", "all_lookml_models", "all_users", "me", "search_groups", "git_branch", "all_git_branches", "update_git_branch"]
   }
 }
+
+application: api-explorer {
+  label: "API Explorer (Dev)"
+  url: "https://0.0.0.0:8080/dist/bundle.js"
+
+  entitlements: {
+    local_storage: yes
+    navigation: no
+    new_window: yes
+    new_window_external_urls: ["https://looker.com/*"]
+    raw_api_request: yes
+    use_form_submit: yes
+    use_embeds: yes
+    core_api_methods: ["versions", "api_spec"]
+    external_api_urls: ["https://raw.githubusercontent.com","http://localhost:30000"]
+    oauth2_urls: []
+  }
+}
