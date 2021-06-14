@@ -329,7 +329,7 @@ application: advanced-lookml-diagram {
   }
 }
 
-application: api-explorer {
+application: api-explorer-dev {
   label: "API Explorer (Dev)"
   url: "https://localhost:8080/dist/bundle.js"
 
