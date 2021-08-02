@@ -118,8 +118,8 @@ visualization: {
 visualization: {
   id: "report-table-dev"
   label: "Report Table Dev"
-  file: "report_table.js"
-  #url: "https://localhost:4443/report_table.js"
+  # file: "report_table.js"
+  url: "https://localhost:8002/report_table.js"
 }
 visualization: {
   id: "Ziggurat-dev"
